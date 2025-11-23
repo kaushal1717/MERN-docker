@@ -12,7 +12,7 @@ services:
     build: 
       context: ./client
       args:
-        - VITE_API_URL=https://43.205.145.206:5000/api
+        - VITE_API_URL=http://43.205.145.206:5000/api
     container_name: frontend_container
     restart: always
     ports:
